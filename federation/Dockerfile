@@ -1,0 +1,1 @@
+FROM gcr.io/madhusudancs-containers/kubernetes-anywhere-federation
