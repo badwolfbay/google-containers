@@ -1,6 +1,6 @@
 FROM centos:7
 
-RUN yum install gcc
-RUN yum install g++
-RUN yum install make
+RUN yum -y install gcc
+RUN yum -y install g++
+RUN yum -y install make
 
