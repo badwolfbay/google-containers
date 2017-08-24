@@ -6,10 +6,9 @@ RUN yum install -y nodejs
 RUN ["npm", "install", "-g", "fis"]
 #RUN ["fis", "install", "fis-prepackager-app"]
 RUN ["npm","install","-g","fis-optimizer-uglify-js"]
-RUN ["npm", "install", "-g", "fis-postpackager-simple"]
+RUN ["npm", "install", "-g", "fis-postpackager-simple@0.0.23"]
 RUN ["npm", "install", "-g", "fis-postpackager-requirejs"]
-RUN ["npm", "install", "-g", "fis-postpackager-autoload"]
-RUN ["npm", "install", "-g", "fis-postpackager-increment"]
+RUN ["npm", "install", "-g", "fis-postpackager-autoload@0.0.13"]
 
 
 RUN yum install -y epel-release
